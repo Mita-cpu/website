@@ -1,0 +1,99 @@
+body {
+	background-image:url('images/s.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	min-height: 100vh;
+		
+}
+
+ul {
+	list-style:none;
+}
+a {
+	text-decoration:none;
+	color: white;
+}
+p {
+
+	font-size : 20px;
+	font-family:'Architects Daughter', cursive;
+	color: white;
+
+}
+p:hover {
+	color:royalblue;
+}
+h2 {
+	color:white;
+}
+h2:hover {
+	color:salmon;
+}
+h4 {
+	font-family: 'Source Code Pro', monospace;
+}
+/*footer styling*/
+footer {
+	background-color: #071f2a;
+	position: sticky;
+	top:100%;
+	bottom: 0;
+}
+.containers{
+	color: white;
+	max-width: 100%;
+}
+
+.bottom{
+	font-family: 'Architects Daughter', cursive;
+	font-size: 20px;
+	color: rgb(56, 54, 54);
+}
+
+/* Navigation bar styling*/
+nav{
+	position: fixed;
+	top:0;
+	left:0;
+	height: 70px;
+	width:100%;
+	background:#071f2a;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Source Code Pro', monospace;
+	font-weight: bolder;
+	
+	
+  }
+  
+  nav ul li a{
+
+	display: block;
+	padding: 0 15px;
+	line-height: 70px;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+  }
+  nav ul li a:hover{
+	
+	background: darkgrey;
+	color: black;
+  }
+/* Picture and content positioning*/
+.container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 15px;
+	margin-left:50px;
+	margin-right: 10px;
+	
+
+}
+.containers {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-column-gap: 15px;
+	
+}
